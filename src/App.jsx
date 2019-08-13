@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <Display/>
       <div className="App">
+      <Display/>
       <Specials/>
       <Numbers/>
         {

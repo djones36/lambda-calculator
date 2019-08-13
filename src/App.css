@@ -1,7 +1,8 @@
 .container{
     background: #A71D36;
-    border:2px solid black;
+    border:5px solid #222425;
     height: 1000px;
+    border-radius: 20px;
     width:50%;
     margin: 0 auto;
     padding: 2rem;
@@ -22,9 +23,12 @@
     font-size: 3rem;
     text-align:right;
 }
+.special-button{
+
+}
 .number-button{
 
 }
 .operator-button{
-    
+
 }
