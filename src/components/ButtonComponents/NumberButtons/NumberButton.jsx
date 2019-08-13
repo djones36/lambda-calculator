@@ -7,3 +7,4 @@ const NumberButton = () => {
     </button>
   );
 };
+export default NumberButton;

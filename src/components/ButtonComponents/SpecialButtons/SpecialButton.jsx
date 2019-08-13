@@ -7,3 +7,4 @@ const SpecialButton = () => {
     </button>
   );
 };
+export default SpecialButton;
