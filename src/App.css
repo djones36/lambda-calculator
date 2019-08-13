@@ -2,7 +2,20 @@
     background: #A71D36;
     border:2px solid black;
     height: 1000px;
-    width:800px;
+    width:50%;
     margin: 0 auto;
     padding: 2rem;
+}
+.App{
+    border:1px solid red;
+    height:90%;
+    margin:2rem;
+    
+}
+.display-container{
+    background: #323335;
+    height: 100%;
+    width:100%;
+    height: 20%;
+    border-radius:20% ;
 }
