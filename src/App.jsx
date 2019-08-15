@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
@@ -18,15 +18,23 @@ function App() {
 
   return (
     <div className="container">
-      <Logo />
+      <Logo/>
       <div className="App">
-      <Display/>
-      <Specials/>
-      <Numbers/>
+        <div className="display-div">
+          <Display/>
+        </div>
+        <div className="keypad">
+          <div className="left-buttons">
+            <Specials/>
+            <Numbers />
+          </div>
+          <div className="right-buttons">
+            <Operators/>
+          </div>
+      </div>
         {
           /* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
-      <Operators/>
     </div>
   );
 }

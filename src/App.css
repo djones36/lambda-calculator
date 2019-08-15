@@ -1,6 +1,6 @@
 .container{
     background: #A71D36;
-    border:5px solid #222425;
+    border:5px solid #515151;
     height: 1000px;
     border-radius: 20px;
     width:50%;
@@ -23,7 +23,7 @@
     font-size: 3rem;
     text-align:right;
 }
-.special-button{
+/* .special-button{
 
 }
 .number-button{
@@ -31,4 +31,4 @@
 }
 .operator-button{
 
-}
+} */
