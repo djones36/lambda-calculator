@@ -1,0 +1,34 @@
+.container{
+    background: #A71D36;
+    border:5px solid #515151;
+    height: 1000px;
+    border-radius: 20px;
+    width:50%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.App{
+    border:1px solid red;
+    height:90%;
+    margin:2rem;
+    
+}
+.display-container{
+    background: #323335;
+    height: 100%;
+    width:100%;
+    height: 20%;
+    border-radius:80px;
+    color: white;
+    font-size: 3rem;
+    text-align:right;
+}
+/* .special-button{
+
+}
+.number-button{
+
+}
+.operator-button{
+
+} */
